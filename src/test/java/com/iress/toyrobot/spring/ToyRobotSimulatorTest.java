@@ -1,4 +1,4 @@
-package com.iress.toyrobot;
+package com.iress.toyrobot.spring;
 
 import com.iress.toyrobot.spring.ToyRobotSimulator;
 import com.iress.toyrobot.spring.controller.cli.CliController;

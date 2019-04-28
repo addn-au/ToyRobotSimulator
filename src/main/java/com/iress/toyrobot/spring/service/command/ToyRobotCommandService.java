@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-@Service("toyRobotSimulatorCommandService")
+@Service("toyRobotCommandService")
 public class ToyRobotCommandService implements CommandService {
     private final static String PLACE_COMMAND_PATTERN = "^(PLACE)[  ]+(\\d+)[ ]*,[ ]*(\\d+)[ ]*,[ ]*(NORTH|SOUTH|EAST|WEST)$";
     private final static String MOVE_COMMAND_PATTERN = "^MOVE$";
