@@ -29,7 +29,7 @@ Toy Robot Simulator
 - Any PLACE commands that attempt to place the robot off the table are discarded.
 - A robot that is not on the table (inoperable ) ignores the MOVE, LEFT, RIGHT and REPORT commands.
 - REPORT prints the X,Y and F of the robot to standard output.
-- REPORT prints nothing if the robot is in an inoperable state.
+- REPORT prints nothing if the robot is not in an operable state.
 - Unit tests for the application are available in `src/test`.
 
 ## Design
