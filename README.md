@@ -52,11 +52,11 @@ Toy Robot Simulator
 ```
 java -jar toy-robot-simulator-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
-* Run the following command to repackage the application:
+* Run the following command in the project's root directory to repackage the application:
 ```
 mvn package
 ```
-* Run the following command to execute unit tests:
+* Run the following command in the project's root directory to execute unit tests:
 ```
 mvn test
 ```
