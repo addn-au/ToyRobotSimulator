@@ -53,7 +53,7 @@ public class PlaceCommandTest {
         robotWithoutAValidMap.setPosition(point);
         robotWithoutAValidMap.setCardinalDirection(CardinalDirection.SOUTH);
 
-        placeCommand.execute(robot);
+        placeCommand.execute(robotWithoutAValidMap);
 
         assertNull(robotWithoutAValidMap.getPosition());
     }
